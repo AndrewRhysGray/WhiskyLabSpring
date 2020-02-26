@@ -8,5 +8,5 @@ import java.util.List;
 
 @RepositoryRestResource
 public interface WhiskyRepository extends JpaRepository<Whisky, Long>, WhiskyRepositoryCustom {
-//    List<Whisky> findByYear(int year);
+    List<Whisky> findByYear(int year);
 }
